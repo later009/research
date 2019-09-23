@@ -1,0 +1,119 @@
+
+---
+## Types of software testing
+![](https://www.archer.com.mt/wp-content/uploads/Software_Testing2.png)
+
+---
+
+
+
+## Unit testing
+### We've done it before :)
+ * testing the smallest testable parts of an application - **units**
+ * units are **isolated** from the rest of the code
+ * units are examined to determine whether it behaves **exactly as you expect**
+
+
+
+---
+
+## Unit testing
+### Example
+
+![](https://i.ibb.co/TMjXR6Q/Screenshot-from-2019-09-23-14-40-57.png)
+
+
+---
+
+## Integration tests
+### Testing your units as a group!
+
+* testing the **connection points** between separate groups of code
+* can access API, databases, etc.
+* will find bugs that unit tests can't 
+* Can use the same frameworks as Unit testing
+* There are disadvantages, too :( 
+  * touch more code 
+  * therefore failures are harder to diagnose 
+  * and tests are harder to maintain
+
+
+---
+
+
+## An example of the testing process 
+
+
+![](https://i.imgur.com/bXGupQT.png)
+
+
+
+---
+
+
+## End to end testing (aka Functional)
+### Testing a complete functionality
+
+* is done from the **perspective of the user**
+  * interacting with the app the same way the user will be
+* special tools are used to automate browsers (**Selenium**)
+* **expensive to perform** and can be hard to maintain when they're automated
+* it is recommended to have a few key end-to-end tests and mostly **rely more on lower level types** of testing
+
+---
+
+## End to end testing
+### Example - searching for a certain phrase in Google
+
+![](https://i.ibb.co/Z8VZ9RG/Screenshot-from-2019-09-23-15-27-07.png)
+
+---
+
+
+## But how much of each test types should we use?
+### Common reco: 70% unit tests, 20% integration tests, and 10% end-to-end tests
+The exact mix will be different for each team, but in general, it **should retain that pyramid shape**
+
+![](https://2.bp.blogspot.com/-YTzv_O4TnkA/VTgexlumP1I/AAAAAAAAAJ8/57-rnwyvP6g/s1600/image02.png)
+
+
+---
+
+
+
+### Regression Testing
+
+
+Regression Testing is defined as a type of software testing to confirm that a recent program or code change has not adversely affected existing features. 
+
+![](https://www.xenonstack.com/images/insights/xenonstack-what-is-regression-testing.png)
+
+
+if you are curious to know more read more here:
+https://www.xenonstack.com/insights/what-is-regression-testing/
+
+
+
+---
+
+
+
+
+
+
+# Thank you!
+ 
+![](https://media.giphy.com/media/QAsBwSjx9zVKoGp9nr/giphy.gif)
+
+
+
+
+
+
+---
+
+<style>
+.reveal {
+  font-size: 24px;
+}
+</style>
